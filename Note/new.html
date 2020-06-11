@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>三栏式固定宽度且居中</title>
+<style type="text/css">
+#div1{ 
+	width:300px;
+	height:400px;
+	border:2px solid red;
+	margin:0px auto;/*设置外边距上下0px，左右auto，即可实现左右居中的效果*/
+}
+#left,#middle,#right {
+	float:left;
+	height:100%;
+	}
+#left{
+	width:15%;
+	background-color:#F9F;
+	}
+#middle {
+	width:70%;
+	background-color:#3FC;
+	}
+#right {
+	width:15%;
+	background-color:#93C;
+	}
+</style>
+</head> 
+ 
+ 
+<body>
+ 
+<div id="div1">
+	<div id="left">三栏式固定宽度且居中-左</div>
+	<div id="middle">三栏式固定宽度且居中-中</div>
+	<div id="right">三栏式固定宽度且居中-右</div>
+ 
+</div>
+ 
+</body>
+</html>
